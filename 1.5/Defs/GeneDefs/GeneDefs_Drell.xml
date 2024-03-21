@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<GeneDef>
+		<defName>RE_DrellSkin</defName>
+		<label>drell skin</label>
+		<description>Carriers of this gene have somewhat fish-like skin, visibly evolved in the oceans of a world.</description>
+		<iconPath>UI/Icons/Genes/Gene_DrellSkin</iconPath>
+		<displayCategory>Miscellaneous</displayCategory>
+		<displayOrderInCategory>400</displayOrderInCategory>
+		<forcedHeadTypes>
+			<li>RE_Drell_Male_AverageNormal</li>
+			<li>RE_Drell_Male_AveragePointy</li>
+			<li>RE_Drell_Male_AverageWide</li>
+			<li>RE_Drell_Female_AverageNormal</li>
+			<li>RE_Drell_Female_AveragePointy</li>
+			<li>RE_Drell_Female_AverageWide</li>
+		</forcedHeadTypes>
+		<selectionWeight>0</selectionWeight>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>Bald</li>
+			</tags>
+		</hairTagFilter>
+		<forcedHair>Bald</forcedHair>
+		<beardTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>NoBeard</li>
+			</tags>
+		</beardTagFilter>
+		<exclusionTags>
+			<li>HairStyle</li>
+			<li>Skin</li>
+			<li>Fur</li>
+			<li>BeardStyle</li>
+		</exclusionTags>
+		<graphicData>
+			<fur>RE_DrellSkin</fur>
+			<colorType>Skin</colorType>
+			<skinIsHairColor>false</skinIsHairColor>
+			<tattoosVisible>false</tattoosVisible>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<useSkinColorForFur>true</useSkinColorForFur>
+				<useMaskForFur>true</useMaskForFur>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>RE_MindSeparation</defName>
+		<label>mind seperation</label>
+		<description>This gene allows the pawn to separate their body and mind, so they can perform acts that would usually cause severe mental distress with no effect at the cost of not learning anything from it.</description>
+		<geneClass>REDrell.Gene_MindSeparation</geneClass>
+		<displayCategory>Miscellaneous</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_MindSeparation</iconPath>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>1</biostatMet>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>RE_KepralSyndrome</defName>
+		<label>keprals syndrome</label>
+		<description>This gene is a genetic illness that only takes hold in colder climates, if the pawn experiences hypothermia at all it has a chance to activate the illness which will eventually guarantee death even if treated.</description>
+		<displayCategory>Miscellaneous</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_KepralsSyndrome</iconPath>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-2</biostatMet>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>RE_LongMemory</defName>
+		<label>long memory</label>
+		<description>This gene causes pawn to remember any thought for much longer than normal.</description>
+		<displayCategory>Miscellaneous</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_LongMemory</iconPath>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>1</biostatMet>
+	</GeneDef>
+
+</Defs>
