@@ -36,18 +36,20 @@
 			<li>Fur</li>
 			<li>BeardStyle</li>
 		</exclusionTags>
-		<graphicData>
-			<fur>RE_DrellSkin</fur>
-			<colorType>Skin</colorType>
-			<skinIsHairColor>false</skinIsHairColor>
-			<tattoosVisible>false</tattoosVisible>
-		</graphicData>
-		<modExtensions>
-			<li Class="VanillaGenesExpanded.GeneExtension">
-				<useSkinColorForFur>true</useSkinColorForFur>
-				<useMaskForFur>true</useMaskForFur>
+		<fur>RE_DrellSkin</fur>
+		<skinIsHairColor>false</skinIsHairColor>
+		<tattoosVisible>false</tattoosVisible>
+		<renderNodeProperties>
+			<li>
+				<debugLabel>Ridged Skin</debugLabel>
+				<nodeClass>TabulaRasa.PawnRenderNode_FurCustom</nodeClass>
+				<workerClass>PawnRenderNodeWorker_Fur</workerClass>
+				<baseLayer>5</baseLayer>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<colorType>Skin</colorType>
+				<parentTagDef>Body</parentTagDef>
 			</li>
-		</modExtensions>
+		</renderNodeProperties>
 	</GeneDef>
 
 	<GeneDef>

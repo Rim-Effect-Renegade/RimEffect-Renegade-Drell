@@ -13,14 +13,8 @@
 			<li>Drell</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Crafting</key>
-				<value>2</value>
-			</li>
-			<li>
-				<key>Artistic</key>
-				<value>3</value>
-			</li>
+			<Crafting>2</Crafting>
+			<Artistic>3</Artistic>
 		</skillGains>
 		<workDisables>
 			<li>Violent</li>
@@ -39,14 +33,8 @@
 			<li>Drell</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Shooting</key>
-				<value>3</value>
-			</li>
-			<li>
-				<key>Melee</key>
-				<value>1</value>
-			</li>
+			<Shooting>3</Shooting>
+			<Melee>1</Melee>
 		</skillGains>
 	</BackstoryDef>
 
@@ -62,22 +50,10 @@
 			<li>Drell</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Shooting</key>
-				<value>1</value>
-			</li>
-			<li>
-				<key>Mining</key>
-				<value>1</value>
-			</li>
-			<li>
-				<key>Crafting</key>
-				<value>3</value>
-			</li>
-			<li>
-				<key>Intellectual</key>
-				<value>1</value>
-			</li>
+			<Shooting>1</Shooting>
+			<Mining>1</Mining>
+			<Crafting>3</Crafting>
+			<Intellectual>1</Intellectual>
 		</skillGains>
 		<workDisables>
 			<li>Hauling</li>
@@ -97,10 +73,7 @@
 			<li>Drell</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Cooking</key>
-				<value>2</value>
-			</li>
+			<Cooking>2</Cooking>
 		</skillGains>
 	</BackstoryDef>
 
@@ -116,14 +89,8 @@
 			<li>Drell</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Cooking</key>
-				<value>2</value>
-			</li>
-			<li>
-				<key>Intellectual</key>
-				<value>1</value>
-			</li>
+			<Cooking>2</Cooking>
+			<Intellectual>1</Intellectual>
 		</skillGains>
 	</BackstoryDef>
 
@@ -139,22 +106,10 @@
 			<li>Drell</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Melee</key>
-				<value>2</value>
-			</li>
-			<li>
-				<key>Crafting</key>
-				<value>1</value>
-			</li>
-			<li>
-				<key>Artistic</key>
-				<value>2</value>
-			</li>
-			<li>
-				<key>Social</key>
-				<value>-1</value>
-			</li>
+			<Melee>2</Melee>
+			<Crafting>1</Crafting>
+			<Artistic>2</Artistic>
+			<Social>-1</Social>
 		</skillGains>
 		<workDisables>
 			<li>Intellectual</li>
@@ -173,30 +128,12 @@
 			<li>Drell</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Mining</key>
-				<value>-1</value>
-			</li>
-			<li>
-				<key>Plants</key>
-				<value>1</value>
-			</li>
-			<li>
-				<key>Animals</key>
-				<value>-1</value>
-			</li>
-			<li>
-				<key>Artistic</key>
-				<value>1</value>
-			</li>
-			<li>
-				<key>Social</key>
-				<value>2</value>
-			</li>
-			<li>
-				<key>Intellectual</key>
-				<value>1</value>
-			</li>
+			<Mining>-1</Mining>
+			<Plants>1</Plants>
+			<Animals>-1</Animals>
+			<Artistic>1</Artistic>
+			<Social>2</Social>
+			<Intellectual>1</Intellectual>
 		</skillGains>
 		<workDisables>
 			<li>Violent</li>
@@ -215,26 +152,11 @@
 			<li>Drell</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Construction</key>
-				<value>2</value>
-			</li>
-			<li>
-				<key>Cooking</key>
-				<value>1</value>
-			</li>
-			<li>
-				<key>Crafting</key>
-				<value>2</value>
-			</li>
-			<li>
-				<key>Social</key>
-				<value>-2</value>
-			</li>
-			<li>
-				<key>Intellectual</key>
-				<value>1</value>
-			</li>
+			<Construction>2</Construction>
+			<Cooking>1</Cooking>
+			<Crafting>2</Crafting>
+			<Social>-2</Social>
+			<Intellectual>1</Intellectual>
 		</skillGains>
 		<workDisables>
 			<li>Animals</li>
@@ -254,34 +176,13 @@
 			<li>Drell</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Shooting</key>
-				<value>1</value>
-			</li>
-			<li>
-				<key>Mining</key>
-				<value>-1</value>
-			</li>
-			<li>
-				<key>Cooking</key>
-				<value>1</value>
-			</li>
-			<li>
-				<key>Plants</key>
-				<value>1</value>
-			</li>
-			<li>
-				<key>Artistic</key>
-				<value>1</value>
-			</li>
-			<li>
-				<key>Medicine</key>
-				<value>-1</value>
-			</li>
-			<li>
-				<key>Social</key>
-				<value>2</value>
-			</li>
+			<Shooting>1</Shooting>
+			<Mining>-1</Mining>
+			<Cooking>1</Cooking>
+			<Plants>1</Plants>
+			<Artistic>1</Artistic>
+			<Medicine>-1</Medicine>
+			<Social>2</Social>
 		</skillGains>
 	</BackstoryDef>
 	
@@ -297,22 +198,10 @@
 			<li>Drell</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Crafting</key>
-				<value>-1</value>
-			</li>
-			<li>
-				<key>Medicine</key>
-				<value>2</value>
-			</li>
-			<li>
-				<key>Social</key>
-				<value>-1</value>
-			</li>
-			<li>
-				<key>Intellectual</key>
-				<value>3</value>
-			</li>
+			<Crafting>-1</Crafting>
+			<Medicine>2</Medicine>
+			<Social>-1</Social>
+			<Intellectual>3</Intellectual>
 		</skillGains>
 		<workDisables>
 			<li>Violent</li>
@@ -331,22 +220,10 @@
 			<li>Drell</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Shooting</key>
-				<value>-1</value>
-			</li>
-			<li>
-				<key>Melee</key>
-				<value>4</value>
-			</li>
-			<li>
-				<key>Medicine</key>
-				<value>2</value>
-			</li>
-			<li>
-				<key>Social</key>
-				<value>-1</value>
-			</li>
+			<Shooting>-1</Shooting>
+			<Melee>4</Melee>
+			<Medicine>2</Medicine>
+			<Social>-1</Social>
 		</skillGains>
 		<workDisables>
 			<li>ManualSkilled</li>
@@ -367,30 +244,12 @@
 			<li>Drell</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Shooting</key>
-				<value>1</value>
-			</li>
-			<li>
-				<key>Melee</key>
-				<value>1</value>
-			</li>
-			<li>
-				<key>Mining</key>
-				<value>-1</value>
-			</li>
-			<li>
-				<key>Plants</key>
-				<value>2</value>
-			</li>
-			<li>
-				<key>Artistic</key>
-				<value>2</value>
-			</li>
-			<li>
-				<key>Intellectual</key>
-				<value>-1</value>
-			</li>
+			<Shooting>1</Shooting>
+			<Melee>1</Melee>
+			<Mining>-1</Mining>
+			<Plants>2</Plants>
+			<Artistic>2</Artistic>
+			<Intellectual>-1</Intellectual>
 		</skillGains>
 		<workDisables>
 			<li>ManualDumb</li>
@@ -409,22 +268,10 @@
 			<li>Drell</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Construction</key>
-				<value>-1</value>
-			</li>
-			<li>
-				<key>Mining</key>
-				<value>-1</value>
-			</li>
-			<li>
-				<key>Cooking</key>
-				<value>4</value>
-			</li>
-			<li>
-				<key>Plants</key>
-				<value>2</value>
-			</li>
+			<Construction>-1</Construction>
+			<Mining>-1</Mining>
+			<Cooking>4</Cooking>
+			<Plants>2</Plants>
 		</skillGains>
 		<workDisables>
 			<li>ManualDumb</li>
@@ -443,18 +290,9 @@
 			<li>Drell</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Melee</key>
-				<value>-1</value>
-			</li>
-			<li>
-				<key>Construction</key>
-				<value>4</value>
-			</li>
-			<li>
-				<key>Cooking</key>
-				<value>2</value>
-			</li>
+			<Melee>-1</Melee>
+			<Construction>4</Construction>
+			<Cooking>2</Cooking>
 		</skillGains>
 		<workDisables>
 			<li>Social</li>
@@ -474,26 +312,11 @@
 			<li>Drell</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Construction</key>
-				<value>-1</value>
-			</li>
-			<li>
-				<key>Mining</key>
-				<value>-1</value>
-			</li>
-			<li>
-				<key>Animals</key>
-				<value>1</value>
-			</li>
-			<li>
-				<key>Artistic</key>
-				<value>3</value>
-			</li>
-			<li>
-				<key>Intellectual</key>
-				<value>2</value>
-			</li>
+			<Construction>-1</Construction>
+			<Mining>-1</Mining>
+			<Animals>1</Animals>
+			<Artistic>3</Artistic>
+			<Intellectual>2</Intellectual>
 		</skillGains>
 	</BackstoryDef>
 	
@@ -509,26 +332,11 @@
 			<li>Drell</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Mining</key>
-				<value>1</value>
-			</li>
-			<li>
-				<key>Plants</key>
-				<value>-1</value>
-			</li>
-			<li>
-				<key>Animals</key>
-				<value>-1</value>
-			</li>
-			<li>
-				<key>Crafting</key>
-				<value>1</value>
-			</li>
-			<li>
-				<key>Artistic</key>
-				<value>4</value>
-			</li>
+			<Mining>1</Mining>
+			<Plants>-1</Plants>
+			<Animals>-1</Animals>
+			<Crafting>1</Crafting>
+			<Artistic>4</Artistic>
 		</skillGains>
 		<workDisables>
 			<li>Violent</li>
@@ -547,26 +355,11 @@
 			<li>Drell</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Shooting</key>
-				<value>2</value>
-			</li>
-			<li>
-				<key>Melee</key>
-				<value>2</value>
-			</li>
-			<li>
-				<key>Cooking</key>
-				<value>-1</value>
-			</li>
-			<li>
-				<key>Crafting</key>
-				<value>-1</value>
-			</li>
-			<li>
-				<key>Social</key>
-				<value>2</value>
-			</li>
+			<Shooting>2</Shooting>
+			<Melee>2</Melee>
+			<Cooking>-1</Cooking>
+			<Crafting>-1</Crafting>
+			<Social>2</Social>
 		</skillGains>
 		<workDisables>
 			<li>Intellectual</li>
@@ -585,22 +378,10 @@
 			<li>Drell</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Plants</key>
-				<value>-1</value>
-			</li>
-			<li>
-				<key>Artistic</key>
-				<value>-1</value>
-			</li>
-			<li>
-				<key>Medicine</key>
-				<value>4</value>
-			</li>
-			<li>
-				<key>Intellectual</key>
-				<value>2</value>
-			</li>
+			<Plants>-1</Plants>
+			<Artistic>-1</Artistic>
+			<Medicine>4</Medicine>
+			<Intellectual>2</Intellectual>
 		</skillGains>
 		<workDisables>
 			<li>Violent</li>
