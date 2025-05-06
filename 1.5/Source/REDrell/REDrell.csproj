@@ -36,8 +36,8 @@
       <HintPath>packages\Lib.Harmony.2.1.1\lib\net472\0Harmony.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Assembly-CSharp_public_1.4">
-      <HintPath>..\..\..\..\..\..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp_public_1.4.dll</HintPath>
+    <Reference Include="Assembly-CSharp_public_1.5">
+      <HintPath>..\..\..\..\..\..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp_public_1.5.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />

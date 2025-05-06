@@ -43,7 +43,7 @@ namespace REDrell
             {
                 foreach (Apparel item in pawn.apparel.WornApparel)
                 {
-                    CompReloadable comp = item.GetComp<CompReloadable>();
+                    CompApparelReloadable comp = item.GetComp<CompApparelReloadable>();
                     if (comp != null)
                     {
                         foreach (Verb verb in comp.AllVerbs)

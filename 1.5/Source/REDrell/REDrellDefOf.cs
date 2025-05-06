@@ -18,11 +18,17 @@ namespace REDrell
             DefOfHelper.EnsureInitializedInCtor(typeof(REDrellDefOf));
         }
 
-        public static GeneDef RE_DrellSkin;
-        public static GeneDef RE_LongMemory;
-        public static GeneDef RE_KepralSyndrome;
-        public static GeneDef RE_MindSeparation;
-        public static ThoughtDef RE_DrellLovin;
-        public static HediffDef RE_KepralsSyndrome;
+        public static GeneDef 
+            RE_DrellSkin,
+            RE_LongMemory,
+            RE_KepralSyndrome,
+            RE_MindSeparation;
+
+        public static ThoughtDef 
+            RE_DrellLovin;
+
+        public static HediffDef 
+            RE_KepralsSyndrome;
+
     }
 }
