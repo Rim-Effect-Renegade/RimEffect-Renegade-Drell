@@ -41,13 +41,14 @@
 		<tattoosVisible>false</tattoosVisible>
 		<renderNodeProperties>
 			<li>
-				<debugLabel>Ridged Skin</debugLabel>
+				<debugLabel>drell Skin</debugLabel>
 				<nodeClass>TabulaRasa.PawnRenderNode_FurCustom</nodeClass>
 				<workerClass>PawnRenderNodeWorker_Fur</workerClass>
 				<baseLayer>5</baseLayer>
 				<rotDrawMode>Fresh, Rotting</rotDrawMode>
 				<colorType>Skin</colorType>
 				<parentTagDef>Body</parentTagDef>
+				<shaderTypeDef>CutoutComplex</shaderTypeDef>
 			</li>
 		</renderNodeProperties>
 	</GeneDef>
