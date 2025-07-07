@@ -14,7 +14,7 @@ namespace REDrell
     {
         public override void OnIntervalPassed(Pawn pawn, Hediff cause)
         {
-            if (pawn.health.hediffSet.HasHediff(HediffDefOf.Hypothermia) && pawn.genes.HasGene(REDrellDefOf.RE_KepralSyndrome))
+            if (pawn.health.hediffSet.HasHediff(HediffDefOf.Hypothermia) && pawn.genes.HasActiveGene(REDrellDefOf.RE_KepralSyndrome))
             {
                 Hediff hypothermiaHediff = pawn.health.hediffSet.GetFirstHediffOfDef(HediffDefOf.Hypothermia);
                 if (Rand.Chance(hypothermiaHediff.Severity / 100))

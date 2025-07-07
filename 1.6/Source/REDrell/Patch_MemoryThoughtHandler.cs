@@ -28,7 +28,7 @@ namespace REDrell
                     return false;
                 }
             }
-            else if (pawn.genes?.HasGene(REDrellDefOf.RE_LongMemory) ?? false)
+            else if (pawn.genes?.HasActiveGene(REDrellDefOf.RE_LongMemory) ?? false)
             {
                 newThought.durationTicksOverride = Mathf.RoundToInt(newThought.DurationTicks * 10f);
             }
@@ -40,7 +40,7 @@ namespace REDrell
         public static void Postfix(Thought_Memory newThought, Pawn otherPawn)
         {
             // Drell Lovin additional thought.
-            if(newThought.def == ThoughtDefOf.GotSomeLovin && (otherPawn?.genes?.HasGene(REDrellDefOf.RE_DrellSkin) ?? false))
+            if(newThought.def == ThoughtDefOf.GotSomeLovin && (otherPawn?.genes?.HasActiveGene(REDrellDefOf.RE_DrellSkin) ?? false))
             {
                 Thought_MemorySocial drellLovin = (Thought_MemorySocial)ThoughtMaker.MakeThought(REDrellDefOf.RE_DrellLovin);
                 otherPawn.needs.mood.thoughts.memories.TryGainMemory(drellLovin, otherPawn);
