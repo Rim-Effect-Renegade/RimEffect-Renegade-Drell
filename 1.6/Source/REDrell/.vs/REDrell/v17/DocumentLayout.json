@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Drell-Biotech\\1.6\\Source\\REDrell\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A833711-3A86-4B02-8393-5DD116530280}|REDrell.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Drell-Biotech\\1.6\\Source\\REDrell\\patch_memorythoughthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A833711-3A86-4B02-8393-5DD116530280}|REDrell.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Drell-Biotech\\1.6\\Source\\REDrell\\redrell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A833711-3A86-4B02-8393-5DD116530280}|REDrell.csproj|solutionrelative:redrell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A833711-3A86-4B02-8393-5DD116530280}|REDrell.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Drell-Biotech\\1.6\\Source\\REDrell\\redrelldefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A833711-3A86-4B02-8393-5DD116530280}|REDrell.csproj|solutionrelative:redrelldefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A833711-3A86-4B02-8393-5DD116530280}|REDrell.csproj|f:\\rwmodcategories\\neronix17\\rimeffectbiotech\\rimeffect-drell-biotech\\1.6\\source\\redrell\\patch_memorythoughthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A833711-3A86-4B02-8393-5DD116530280}|REDrell.csproj|solutionrelative:patch_memorythoughthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A833711-3A86-4B02-8393-5DD116530280}|REDrell.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Drell-Biotech\\1.6\\Source\\REDrell\\hediffgiver_kepralssyndrome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A833711-3A86-4B02-8393-5DD116530280}|REDrell.csproj|solutionrelative:hediffgiver_kepralssyndrome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A833711-3A86-4B02-8393-5DD116530280}|REDrell.csproj|f:\\rwmodcategories\\neronix17\\rimeffectbiotech\\rimeffect-drell-biotech\\1.6\\source\\redrell\\redrell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A833711-3A86-4B02-8393-5DD116530280}|REDrell.csproj|solutionrelative:redrell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A833711-3A86-4B02-8393-5DD116530280}|REDrell.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Drell-Biotech\\1.6\\Source\\REDrell\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8A833711-3A86-4B02-8393-5DD116530280}|REDrell.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Drell-Biotech\\1.6\\Source\\REDrell\\apparel_assassinshood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A833711-3A86-4B02-8393-5DD116530280}|REDrell.csproj|solutionrelative:apparel_assassinshood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A833711-3A86-4B02-8393-5DD116530280}|REDrell.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Drell-Biotech\\1.6\\Source\\REDrell\\redrelldefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A833711-3A86-4B02-8393-5DD116530280}|REDrell.csproj|solutionrelative:redrelldefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A833711-3A86-4B02-8393-5DD116530280}|REDrell.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Drell-Biotech\\1.6\\Source\\REDrell\\patch_skillrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "REDrell.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Drell-Biotech\\1.6\\Source\\REDrell\\REDrell.cs",
               "RelativeDocumentMoniker": "REDrell.cs",
@@ -63,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Drell-Biotech\\1.6\\Source\\REDrell\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
@@ -75,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Apparel_AssassinsHood.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Drell-Biotech\\1.6\\Source\\REDrell\\Apparel_AssassinsHood.cs",
               "RelativeDocumentMoniker": "Apparel_AssassinsHood.cs",
@@ -87,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HediffGiver_KepralsSyndrome.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Drell-Biotech\\1.6\\Source\\REDrell\\HediffGiver_KepralsSyndrome.cs",
               "RelativeDocumentMoniker": "HediffGiver_KepralsSyndrome.cs",
@@ -95,8 +95,7 @@
               "RelativeToolTip": "HediffGiver_KepralsSyndrome.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T15:20:49.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T15:20:49.526Z"
             },
             {
               "$type": "Document",
@@ -124,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Patch_MemoryThoughtHandler.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Drell-Biotech\\1.6\\Source\\REDrell\\Patch_MemoryThoughtHandler.cs",
               "RelativeDocumentMoniker": "Patch_MemoryThoughtHandler.cs",
@@ -137,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "REDrellDefOf.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Drell-Biotech\\1.6\\Source\\REDrell\\REDrellDefOf.cs",
               "RelativeDocumentMoniker": "REDrellDefOf.cs",
@@ -145,7 +144,8 @@
               "RelativeToolTip": "REDrellDefOf.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T15:20:49.636Z"
+              "WhenOpened": "2025-05-06T15:20:49.636Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
