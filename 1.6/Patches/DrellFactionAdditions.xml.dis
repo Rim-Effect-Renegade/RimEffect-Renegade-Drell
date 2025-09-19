@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- For some reason this can, in certain lists, result in more Drell than any other pawnKind in a faction. Not ideal, disabling till a better solution is found. Instead spawning as a Xenotype addition to base factions for now. -->
+
+	<!-- <Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[kindDef="Combat" or kindDef="Peaceful" or kindDef="Settlement"]/options</xpath>
+		<value>
+			<RE_DrellTraveller>0.01</RE_DrellTraveller>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[kindDef="Trader"]/guards</xpath>
+		<value>
+			<RE_DrellTraveller>0.01</RE_DrellTraveller>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[defName="Pirate"]/pawnGroupMakers/li[kindDef="Combat" or kindDef="Settlement"]/options</xpath>
+		<value>
+			<RE_DrellMercenary>0.01</RE_DrellMercenary>
+		</value>
+	</Operation> -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[@Name="OutlanderFactionBase" or @Name="PirateBandBase"]/xenotypeSet/xenotypeChances</xpath>
+		<value>
+			<RE_Drell>0.02</RE_Drell>
+		</value>
+	</Operation>
+
+</Patch>
